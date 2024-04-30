@@ -1,0 +1,142 @@
+/**Reset Css Pagina**/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /**Font Padrão Pagina**/
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /**Plano De Fundo**/
+    background-image:linear-gradient(to right, rgb(202, 133, 3), rgb(240, 175, 90));
+}
+
+/**Barra De Navegação**/
+
+.navegacao{
+    /**Centralizar Conteudo Da Barra**/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /**Plano De Fundo**/
+    background-color: white;
+    height: 120px;
+}
+
+/**Tamanho Da Imagem**/
+
+img{
+    width:330px;
+    height: 80px;
+    margin-left: 30px;
+}
+
+/**Botão Sair**/
+
+a{
+    color: orange;
+    text-decoration: none;
+    margin-right: 60px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+a:hover{
+    color: green;
+}
+
+/**Centralizar o Balão**/
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/**Papel de Parede da bordar**/
+
+.bordar{
+    width: 1600px;
+    height: 100px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/**Papel de Parede do conteudo**/
+
+.conteudo{
+    border: 1px solid white;
+    width: 1596px;
+    height: 710px;
+    border-radius: 20px;
+}
+
+/**Centralizar Botões**/
+.centralButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+/**Estilos Do Botões Navegação**/
+
+.botaoNav{
+    background-color: orange;
+    color: white;
+    border: none;
+    width: 290px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.botaoNav:hover{
+    background-color: green;
+}
+
+/**Centralizar Botões**/
+.botoesConteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/**Estilos Do Botões Linhas**/
+
+.botoesLinha{
+    background-color:white;
+    color: orange;
+    border: none;
+    width: 450px;
+    font-weight: 900;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.botoesLinha:hover{
+    background-color: green;
+    color: white;
+}
+
+/**Deixar os botoes em coluna**/
+.primeirosBotoes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/**Deixar os botoes separados**/
+.botoesConteudo{
+    display: flex;
+    gap: 20px;
+}
