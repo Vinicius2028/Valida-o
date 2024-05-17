@@ -8,15 +8,15 @@ const usuario = sessionStorage.getItem("Logado")
 /**Função De Copiar Texto**/
 
 function Copy1(){
-    window.location.reload()
     let frase = "1º Contato - " + " " + DataAtual + " " + usuario 
     navigator.clipboard.writeText(frase)
+    window.location.reload()
 }
 
 function Copy2(){
-    window.location.reload()
     let frase = "2º Contato -  " + " " + DataAtual + " " + usuario 
     navigator.clipboard.writeText(frase)
+    window.location.reload()
 }
 
 function Copy3(){
@@ -26,15 +26,15 @@ function Copy3(){
 }
 
 function Copy4(){
-    window.location.reload()
     let frase = "4º Contato - " + " " + DataAtual + " " + usuario 
     navigator.clipboard.writeText(frase)
+    window.location.reload()
 }
 
 function Copy5(){
-    window.location.reload()
     let frase = "5º Contato - " + " " + DataAtual + " " + usuario 
     navigator.clipboard.writeText(frase)
+    window.location.reload()
 }
 
 
