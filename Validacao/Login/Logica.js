@@ -24,6 +24,12 @@ function Entrar(){
     }else if(usuario === "Lauhra" && senha === "@ano209"){
         sessionStorage.setItem("Logado","Lauhra")
         window.location.href = "../Home/Home.html";
+    }else if(usuario === "Luan" && senha === "@ano215"){
+        sessionStorage.setItem("Logado","Luan")
+        window.location.href = "../Home/Home.html";
+    }else if(usuario === "Jorge" && senha === "@ano221"){
+        sessionStorage.setItem("Logado","Jorge")
+        window.location.href = "../Home/Home.html";
     }else if(usuario === "Danielly" && senha === "@ano201"){
         sessionStorage.setItem("Logado","Danielly")
         window.location.href = "../Home/Home.html";
