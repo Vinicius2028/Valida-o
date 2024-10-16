@@ -21,8 +21,8 @@ function Entrar(){
     }else if(usuario === "Lucas" && senha === "@ano208"){
         sessionStorage.setItem("Logado","Lucas")
         window.location.href = "../Home/Home.html";
-    }else if(usuario === "Lauhra" && senha === "@ano209"){
-        sessionStorage.setItem("Logado","Lauhra")
+    }else if(usuario === "Julia" && senha === "@ano216"){
+        sessionStorage.setItem("Logado","Julia")
         window.location.href = "../Home/Home.html";
     }else if(usuario === "Luan" && senha === "@ano215"){
         sessionStorage.setItem("Logado","Luan")
@@ -32,9 +32,6 @@ function Entrar(){
         window.location.href = "../Home/Home.html";
     }else if(usuario === "Danielly" && senha === "@ano201"){
         sessionStorage.setItem("Logado","Danielly")
-        window.location.href = "../Home/Home.html";
-    }else if(usuario === "Julia" && senha === "@ano215"){
-        sessionStorage.setItem("Logado","Julia")
         window.location.href = "../Home/Home.html";
     }else if(usuario === "Bia" && senha === "@ano200"){
         sessionStorage.setItem("Logado","Bia")
