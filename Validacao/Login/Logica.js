@@ -30,6 +30,9 @@ function Entrar(){
     }else if(usuario === "Jorge" && senha === "@ano221"){
         sessionStorage.setItem("Logado","Jorge")
         window.location.href = "../Home/Home.html";
+    }else if(usuario === "Julia Siviero" && senha === "@ano212"){
+        sessionStorage.setItem("Logado","Jorge")
+        window.location.href = "../Home/Home.html";
     }else if(usuario === "Danielly" && senha === "@ano201"){
         sessionStorage.setItem("Logado","Danielly")
         window.location.href = "../Home/Home.html";
