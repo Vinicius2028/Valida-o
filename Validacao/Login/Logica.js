@@ -34,7 +34,7 @@ function Entrar(){
         sessionStorage.setItem("Logado","Danielly")
         window.location.href = "../Home/Home.html";
     }else if(usuario === "Julia" && senha === "@ano215"){
-        sessionStorage.setItem("Logado","Matheus")
+        sessionStorage.setItem("Logado","Julia")
         window.location.href = "../Home/Home.html";
     }else if(usuario === "Bia" && senha === "@ano200"){
         sessionStorage.setItem("Logado","Bia")
