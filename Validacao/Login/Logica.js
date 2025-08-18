@@ -19,7 +19,7 @@ function Entrar(){
         sessionStorage.setItem("Logado","Alex")
         window.location.href = "../Home/Home.html";
     }else if(usuario === "Taina" && senha === "@ano208"){
-        sessionStorage.setItem("Logado","Lucas")
+        sessionStorage.setItem("Logado","Taina")
         window.location.href = "../Home/Home.html";
     }else if(usuario === "Julia" && senha === "@ano222"){
         sessionStorage.setItem("Logado","Julia")
@@ -39,4 +39,5 @@ function Entrar(){
         frase.innerHTML = "Usuário ou Senha Invalidos!"
     }
 }
+
 
