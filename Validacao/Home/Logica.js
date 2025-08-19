@@ -8,19 +8,19 @@ const usuario = sessionStorage.getItem("Logado")
 /**Função De Copiar Texto**/
 
 function Copy1(){
-    let frase = "1º Contato - " + " " + DataAtual + " " + usuario 
+    let frase = "1º Contato - " + " " + DataAtual + " " + usuario + " " + "- Desbloqueio"
     navigator.clipboard.writeText(frase)
     window.location.reload()
 }
 
 function Copy2(){
-    let frase = "2º Contato -  " + " " + DataAtual + " " + usuario 
+    let frase = "2º Contato -  " + " " + DataAtual + " " + usuario + " " + "- Desbloqueio"
     navigator.clipboard.writeText(frase)
     window.location.reload()
 }
 
 function Copy3(){
-    let frase = "3º Contato - " + " " + DataAtual + " " + usuario 
+    let frase = "3º Contato - " + " " + DataAtual + " " + usuario + " " + "- Desbloqueio"
     navigator.clipboard.writeText(frase)
     window.location.reload()
 }
@@ -133,3 +133,4 @@ function Copy19(){
 if(usuario === null){
     window.location.href = "../Login/Login.html";
 }
+
