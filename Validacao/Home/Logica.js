@@ -8,22 +8,44 @@ const usuario = sessionStorage.getItem("Logado")
 /**Função De Copiar Texto**/
 
 function Copy1(){
-    let frase = "1º Contato - " + " " + DataAtual + " " + usuario + " " + "- Desbloqueio"
+    let frase = ""
+    if(usuario === "Danielly"){
+        frase = "1º Contato - " + " " + DataAtual + " " + usuario
+    }else if(usuario === "Alex" || usuario === "Taina"){
+        frase = "1º Contato - " + " " + DataAtual + " " + usuario + " - Desbloqueio"
+    }else{
+        frase = "1º Contato - " + " " + DataAtual + " " + usuario
+    }
     navigator.clipboard.writeText(frase)
     window.location.reload()
 }
 
 function Copy2(){
-    let frase = "2º Contato -  " + " " + DataAtual + " " + usuario + " " + "- Desbloqueio"
+    let frase = ""
+    if(usuario === "Danielly"){
+        frase = "2º Contato - " + " " + DataAtual + " " + usuario
+    }else if(usuario === "Alex" || usuario === "Taina"){
+        frase = "2º Contato - " + " " + DataAtual + " " + usuario + " - Desbloqueio"
+    }else{
+        frase = "2º Contato - " + " " + DataAtual + " " + usuario
+    }
     navigator.clipboard.writeText(frase)
     window.location.reload()
 }
 
 function Copy3(){
-    let frase = "3º Contato - " + " " + DataAtual + " " + usuario + " " + "- Desbloqueio"
+    let frase = ""
+    if(usuario === "Danielly"){
+        frase = "3º Contato - " + " " + DataAtual + " " + usuario
+    }else if(usuario === "Alex" || usuario === "Taina"){
+        frase = "3º Contato - " + " " + DataAtual + " " + usuario + " - Desbloqueio"
+    }else{
+        frase = "3º Contato - " + " " + DataAtual + " " + usuario
+    }
     navigator.clipboard.writeText(frase)
     window.location.reload()
 }
+
 
 function Copy4(){
     let frase = "4º Contato - " + " " + DataAtual + " " + usuario 
@@ -133,4 +155,5 @@ function Copy19(){
 if(usuario === null){
     window.location.href = "../Login/Login.html";
 }
+
 
