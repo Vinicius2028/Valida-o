@@ -9,9 +9,9 @@ const usuario = sessionStorage.getItem("Logado")
 
 function Copy1(){
     let frase = ""
-    if(usuario === "Danielly"){
+    if(usuario === "Danielly" || usuario === "Taina"){
         frase = "1º Contato - " + " " + DataAtual + " " + usuario
-    }else if(usuario === "Alex" || usuario === "Taina"){
+    }else if(usuario === "Alex"){
         frase = "1º Contato - " + " " + DataAtual + " " + usuario + " - Desbloqueio"
     }else{
         frase = "1º Contato - " + " " + DataAtual + " " + usuario
@@ -22,9 +22,9 @@ function Copy1(){
 
 function Copy2(){
     let frase = ""
-    if(usuario === "Danielly"){
+    if(usuario === "Danielly" || usuario === "Taina"){
         frase = "2º Contato - " + " " + DataAtual + " " + usuario
-    }else if(usuario === "Alex" || usuario === "Taina"){
+    }else if(usuario === "Alex"){
         frase = "2º Contato - " + " " + DataAtual + " " + usuario + " - Desbloqueio"
     }else{
         frase = "2º Contato - " + " " + DataAtual + " " + usuario
@@ -35,9 +35,9 @@ function Copy2(){
 
 function Copy3(){
     let frase = ""
-    if(usuario === "Danielly"){
+    if(usuario === "Danielly" || usuario === "Taina"){
         frase = "3º Contato - " + " " + DataAtual + " " + usuario
-    }else if(usuario === "Alex" || usuario === "Taina"){
+    }else if(usuario === "Alex"){
         frase = "3º Contato - " + " " + DataAtual + " " + usuario + " - Desbloqueio"
     }else{
         frase = "3º Contato - " + " " + DataAtual + " " + usuario
@@ -155,5 +155,6 @@ function Copy19(){
 if(usuario === null){
     window.location.href = "../Login/Login.html";
 }
+
 
 
