@@ -34,10 +34,10 @@ function Entrar(){
         sessionStorage.setItem("Logado","Danielly")
         window.location.href = "../Home/Home.html";
     }else if(usuario === "Bruno" && senha === "@ano209"){
-        sessionStorage.setItem("Logado","Danielly")
+        sessionStorage.setItem("Logado","Bruno")
         window.location.href = "../Home/Home.html";
     }else if(usuario === "Alejandro" && senha === "@ano222"){
-        sessionStorage.setItem("Logado","Danielly")
+        sessionStorage.setItem("Logado","Alejandro")
         window.location.href = "../Home/Home.html";
     }else if(usuario === "" || senha === ""){
         frase.innerHTML = "Favor Preencher Todos Os Campos!"
@@ -45,6 +45,7 @@ function Entrar(){
         frase.innerHTML = "Usuário ou Senha Invalidos!"
     }
 }
+
 
 
 
