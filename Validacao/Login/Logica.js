@@ -9,38 +9,14 @@ function Entrar(){
     if(usuario === "Vinicius" && senha === "@ano204"){
        sessionStorage.setItem("Logado","Vinicius")
        window.location.href = "../Home/Home.html";
-    }else if(usuario === "Raul" && senha === "@ano205"){
-        sessionStorage.setItem("Logado","Raul")
-        window.location.href = "../Home/Home.html";
-    }else if(usuario === "Geovana" && senha === "@ano206"){
-        sessionStorage.setItem("Logado","Geovana")
-        window.location.href = "../Home/Home.html";
     }else if(usuario === "Alex" && senha === "@ano207"){
         sessionStorage.setItem("Logado","Alex")
         window.location.href = "../Home/Home.html";
-    }else if(usuario === "Taina" && senha === "@ano208"){
-        sessionStorage.setItem("Logado","Taina")
-        window.location.href = "../Home/Home.html";
-    }else if(usuario === "Julia" && senha === "@ano222"){
-        sessionStorage.setItem("Logado","Julia")
-        window.location.href = "../Home/Home.html"
-    }else if(usuario === "Luan" && senha === "@ano215"){
-        sessionStorage.setItem("Logado","Luan")
-        window.location.href = "../Home/Home.html";
-    }else if(usuario === "Carlos" && senha === "@ano221"){
-        sessionStorage.setItem("Logado","Carlos")
-        window.location.href = "../Home/Home.html";
-    }else if(usuario === "Danielly" && senha === "@ano201"){
-        sessionStorage.setItem("Logado","Danielly")
-        window.location.href = "../Home/Home.html";
-    }else if(usuario === "Bruno" && senha === "@ano209"){
-        sessionStorage.setItem("Logado","Bruno")
-        window.location.href = "../Home/Home.html";
-    }else if(usuario === "Alejandro" && senha === "@ano222"){
-        sessionStorage.setItem("Logado","Alejandro")
-        window.location.href = "../Home/Home.html";
     }else if(usuario === "nicolas" && senha === "@ano2026"){
         sessionStorage.setItem("Logado","Nicolas")
+        window.location.href = "../Home/Home.html";
+    else if(usuario === "bruna" && senha === "@ano2029"){
+        sessionStorage.setItem("Logado","Bruna")
         window.location.href = "../Home/Home.html";
     }else if(usuario === "" || senha === ""){
         frase.innerHTML = "Favor Preencher Todos Os Campos!"
